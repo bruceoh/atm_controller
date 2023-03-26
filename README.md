@@ -16,6 +16,7 @@ npm install
 npm run test:e2e
 ```
 
+- You can run with typescript with <b>'npm run debug'</b>
 - You need to get the bank instance to start
 - In addition, creating user, card and bank account is required to use ATM's functions
 

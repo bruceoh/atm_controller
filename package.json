@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts",
+    "debug": "ts-node index.ts",
+    "build": "npx tsc",
+    "start": "node ./dist",
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "keywords": [],
